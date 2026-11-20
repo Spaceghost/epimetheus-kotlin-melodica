@@ -1,3 +1,9 @@
+# Epimetheus Kotlin for Melodica
+
+The Android 8+ Melodica edition plays your Pandora stations through the native Android media player, with a media notification and lock-screen controls. Sign in with your enabled Melodica account and choose a station. Enable **Save listens to Spaceghost Scrobbles** to record eligible songs at https://spacegho.st/scrobble/. The account credentials stay in memory for the session.
+
+Build the maintained radio edition from melodica/android using Gradle 8.13, JDK 17, Android SDK 36 and NDK 27.0.12077973. Its native station requests use the bundled Melodica source. The earlier Kotlin app, layouts and library history are retained. This edition ships station playback; the archived browse and Wear screens belong to the earlier app.
+
 # Epimetheus
 *The open source Pandora Music app for Android.*
 
